@@ -51,10 +51,23 @@ Upon exploring the provided lab resources, I identified two additional encrypted
 
 <img width="320" height="416" alt="Screenshot 2026-11-19 115743" src="https://github.com/user-attachments/assets/f5480af9-e1ff-4bfc-942b-192293288966" />
 
+---
+
+## 4. Extra Credit: AI-Assisted Password Cracking (Optional Module)
+After completing the standard modules, I explored the optional AI-assisted lab using **Hexstrike-AI MCP** and **Claude Desktop**. 
+
+*   **Setup:** Installed Claude Desktop on Kali Linux and configured the Model Context Protocol (MCP) to connect to a local Hexstrike AI server. 
+*   **Execution:** Rather than typing terminal commands manually, I instructed the AI to crack the hash extracted from `My Locked PDF1.pdf` using John the Ripper and the `rockyou.txt` wordlist.
+*   **AI Problem Solving:** The AI autonomously identified that the wordlist was compressed (`.gz`), handled the necessary permission changes by extracting it to a `/tmp` directory, and successfully executed the attack. 
+*   **Result:** The AI successfully cracked the password (`good-luck`) in 8 seconds.
+
+<img width="959" height="503" alt="Screenshot 2026-11-19 202659" src="https://github.com/user-attachments/assets/a03603a4-865c-40a8-8593-70a463da0870" />
+<img width="216" height="376" alt="Screenshot 2026-11-19 202546" src="https://github.com/user-attachments/assets/3599bfcc-8023-4ce8-ac8a-ef7742aeb1b3" />
+<img width="203" height="206" alt="Screenshot 2026-11-19 202604" src="https://github.com/user-attachments/assets/92924e5a-a160-436a-b974-995b593cde72" />
 
 ---
 
-## 4. Conclusion & Recommendations
+## 5. Conclusion & Recommendations
 This lab demonstrated the importance of strong, unique passwords. While the password `good-luck` was able to defeat a basic 100-word script, it was cracked almost instantly by a real-world tool using a massive dictionary. Other files with even simpler passwords were cracked instantly by the basic web tool.
 
 **Recommendations for protecting sensitive files:**
