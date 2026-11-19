@@ -1,6 +1,6 @@
 # 🔓 Password Cracking Report (Week 3)
 
-**Pentester Name:** Rejoice Mosanesane
+**Pentester Name:** Rejoyce Mosesane
 **Program/Batch:** Networkwalks Cybersecurity Internship 
 **Date:** November 2026
 **Modules Completed:** W3-PM1 (John the Ripper), W3-PM2 (Networkwalks Tools)
